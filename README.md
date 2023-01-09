@@ -20,7 +20,7 @@ Tenho como objetivo desenvolver sites assim para expor o resultado dos meus apre
 <br>
 
 <p align="center">
-  <img alt="site bikcraft" src="./assets/site-bikcraft" width="100%">
+  <img alt="site bikcraft" src="./assets/site-bikcraft.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
