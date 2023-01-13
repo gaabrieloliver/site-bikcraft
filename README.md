@@ -38,7 +38,7 @@ O site BikCraft é um site fictício de uma bicicleta elétrica.
 
 - [Acesse o projeto finalizado, online](https://gaabrieloliver.github.io/site-bikcraft/)
 
-- Compatível apenas em PCs (Site não é responsivo)
+- Compatível em PCs e Smartphones (site responsivo)
 
 <!-- - [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito) -->
 
