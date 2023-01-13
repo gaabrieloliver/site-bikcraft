@@ -65,6 +65,7 @@ p {
   right: -30px;
 
 }
+
 .botao-ver-mais {
   background: #ee2211;
   padding: 15px 30px;
@@ -118,4 +119,44 @@ p {
   background: #fff;
   padding: 40px;
   box-sizing: border-box;
+}
+
+@media (max-width : 890px) {
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 400px;
+    margin: auto;
+
+    height: auto;
+    padding-block: 60px;
+  }
+
+  .introducao {
+    text-align: left;
+  }
+
+  #botao {
+    display: flex;
+    justify-self: center;
+  }
+
+  .detalhe {
+    top: 357px;
+    right: 177.5px;
+
+    width: 4px;
+    height: 30px;
+}
+
+  .subtitulo {
+    text-align: center;
+
+  }
+
+  .rodape {
+    display:flex;
+    justify-content: center;
+  }
 }
