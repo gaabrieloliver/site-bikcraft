@@ -1,6 +1,8 @@
-p, h1, h2, h3 {
+p,
+h1,
+h2,
+h3 {
   margin: 0px;
-
 }
 body {
   display: grid;
@@ -31,14 +33,12 @@ p {
   text-transform: uppercase;
   padding: 15px 30px;
   border-radius: 4px;
-
 }
 
 .conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
-
 }
 
 .introducao {
@@ -52,7 +52,8 @@ p {
   justify-items: end;
 }
 
-.introducao h1, p{
+.introducao h1,
+p {
   margin-bottom: 20px;
 }
 
@@ -63,7 +64,6 @@ p {
   position: absolute;
   top: 30px;
   right: -30px;
-
 }
 
 .botao-ver-mais {
@@ -73,9 +73,7 @@ p {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  
 }
-
 
 .foto {
   max-width: 100%;
@@ -86,26 +84,24 @@ p {
 .subtitulo {
   text-transform: uppercase;
   font-size: 64px;
-  
+
   text-align: right;
   padding: 40px;
 
   align-self: center;
 
   color: rgba(0, 0, 0, 0.2);
-  
 }
 
 .vantagens {
   background: #fff;
   padding: 40px;
-  
 }
 
 .vantagens-item {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 10px 20px; 
+  gap: 10px 20px;
   padding: 20px;
 }
 
@@ -121,11 +117,11 @@ p {
   box-sizing: border-box;
 }
 
-@media (max-width : 890px) {
+@media (max-width: 890px) {
   .conteudo {
     display: flex;
     flex-direction: column;
-    
+
     max-width: 400px;
     margin: auto;
 
@@ -134,7 +130,7 @@ p {
   }
 
   .introducao {
-    text-align: left;
+    text-align: center;
   }
 
   #botao {
@@ -144,19 +140,18 @@ p {
 
   .detalhe {
     top: 332px;
-    right:200px;
+    right: 200px;
 
     width: 4px;
     height: 30px;
-}
+  }
 
   .subtitulo {
     text-align: center;
-
   }
 
   .rodape {
-    display:flex;
+    display: flex;
     justify-content: center;
   }
 }
